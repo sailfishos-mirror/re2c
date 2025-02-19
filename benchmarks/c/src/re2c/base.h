@@ -67,6 +67,10 @@ namespace re2c_##name { \
     bool test_buffered_scc(const char* input, long expected); \
 }
 
+BENCH(lex_00__numbers1)
+BENCH(lex_02__words1)
+BENCH(lex_03__words2)
+BENCH(lex_04__words3)
 BENCH(submatch_00__http_rfc7230)
 BENCH(submatch_01__http_simple)
 BENCH(submatch_02__uri_rfc3986)
