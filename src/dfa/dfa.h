@@ -20,7 +20,7 @@ namespace re2c {
 
 struct Tnfa;
 struct opt_t;
-class Adfa;
+struct Adfa;
 
 struct TdfaState {
     size_t* arcs;
